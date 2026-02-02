@@ -1,6 +1,7 @@
 baseURL: "https://your-site-name.netlify.app/"
 languageCode: "en-us"
 title: "Emirhan Kaleli"
+theme: hugo-profile
 
 outputs:
   home:
@@ -492,10 +493,6 @@ params:
       enable: true
     tags:
       openInNewTab: true
-
-module:
-  imports:
-    - path: github.com/gurusabarish/hugo-profile
 
   # For translations (optional)
   # terms:
