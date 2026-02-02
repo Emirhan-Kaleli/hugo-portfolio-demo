@@ -1,7 +1,6 @@
 baseURL: "https://your-site-name.netlify.app/"
 languageCode: "en-us"
-title: "Your Name - Cybersecurity Professional"
-theme: hugo-profile
+title: "Emirhan Kaleli"
 
 outputs:
   home:
@@ -493,6 +492,10 @@ params:
       enable: true
     tags:
       openInNewTab: true
+
+module:
+  imports:
+    - path: github.com/gurusabarish/hugo-profile
 
   # For translations (optional)
   # terms:
